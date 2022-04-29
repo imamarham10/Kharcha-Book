@@ -1,0 +1,105 @@
+.home-topfold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 12px;
+    padding: 12px 0px;
+    align-items: center;
+    flex: 1;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    align-items: center;
+
+}
+.searchbar input{
+    width: 80%;
+    outline: none;
+    padding: 8px 0px;
+    border: none;
+    margin-left: 6px;
+    background-attachment: fixed;
+}
+
+.searchbar i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+}
+
+.add-button{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    /* background-color: #000; */
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.add-button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.add-topfold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 12px;
+    flex: 1;
+    padding: 12px 0; 
+}
+.back-button{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    /* background-color: #fff; */
+    margin-right: 6px;
+    cursor: pointer;
+}
+.back-button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+.back-button span{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.cancel-button{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    /* background-color: #fff; */
+    margin-right: 6px;
+    cursor: pointer;
+}
+.cancel-button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
