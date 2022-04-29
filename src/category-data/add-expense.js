@@ -21,7 +21,7 @@ export const categories = [
         id: 4,
         title: "Food",
         icon: require('../resources/food.png'),
-        color: '#A95EC2'
+        color: '#FF768A'
     },
     {
         id: 5,
@@ -33,7 +33,7 @@ export const categories = [
         id: 6,
         title: "Others",
         icon: require('../resources/other.png'),
-        color: '#A95EC2'
+        color: '#FF768A'
     }
 
 ]
