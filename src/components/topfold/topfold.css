@@ -25,11 +25,12 @@
     background-attachment: fixed;
 }
 
-.searchbar i{
+.searchbar img{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 6px;
+    height: 20px;
 }
 
 .add-button{
@@ -45,11 +46,12 @@
     cursor: pointer;
 }
 
-.add-button i{
+.add-button img{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 4px;
+    height: 20px;
 }
 
 .add-topfold{

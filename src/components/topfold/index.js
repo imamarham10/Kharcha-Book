@@ -15,7 +15,7 @@ const TopFold = () => {
       {window.location.pathname === "/" ? (
         <div className="home-topfold">
           <div className="searchbar">
-            <i className="fi fi-rr-search"></i>
+            <img src={require('../../resources/search.png')} alt="search"></img>
             <input
               placeholder="Search for expenses"
               value={query}
@@ -24,20 +24,20 @@ const TopFold = () => {
           </div>
           <Link to="/add-expense">
             <div className="add-button">
-              <i className="fi-rr-add"></i>
+              <img src={require("../../resources/add.png")} alt="add"></img>
               <label>Add</label>
             </div>
           </Link>
         </div>
       ) : (
         <div className="add-topfold">
-          <Link to = "/">
-          <div className="back-button">
-            <i className="fi fi-br-arrow-left"></i>
-            <span>Back</span>
-          </div>
+          <Link to="/">
+            <div className="back-button">
+              <i className="fi fi-br-arrow-left"></i>
+              <span>Back</span>
+            </div>
           </Link>
-          
+
           <div className="cancel-button">
             <i className="fi fi-sr-cross-circle"></i>
             <span>Cancel</span>
