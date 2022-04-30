@@ -33,7 +33,8 @@ const Card = ({ item, notifySuccess }) => {
 
         </div>
         <div className="delete-icon" onClick={handleDelete}>
-          <i className="fi-rr-trash"></i>
+          <img src={require('../../resources/trash.png')} alt="delete"></img>
+          {/* <i className="fi-rr-trash"></i> */}
         </div>
       </div>
     </div>
