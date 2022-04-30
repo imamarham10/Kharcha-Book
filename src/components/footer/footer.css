@@ -7,9 +7,10 @@ footer {
     align-items: center;
     padding-bottom: 6px;
   }
-  footer i{
+  footer img{
       display: flex;
       align-items: center;
-      margin-left: 2px;
-      margin-right: 2px;
+      margin-left: 2.5px;
+      margin-right: 2.5px;
+      height: 20px;
   }
